@@ -16,7 +16,7 @@ var heightPop = d3.scale.sqrt()
 
 // Colormap for prevalence points
 var colorScaleRDT = d3.scale.quantize()
-            .domain([0, 0.7])
+            .domain([0, 0.52])
             .range(colorbrewer.OrRd[9]);
 
 var colorScaleRMSE = d3.scale.quantize()
